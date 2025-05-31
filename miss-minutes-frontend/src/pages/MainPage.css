@@ -1,0 +1,41 @@
+.main-game {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.investments {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.investment-card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.investment-card button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.investment-card button:last-child {
+  background-color: #f44336;
+}

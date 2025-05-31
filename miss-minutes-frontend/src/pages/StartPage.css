@@ -1,0 +1,32 @@
+.start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}

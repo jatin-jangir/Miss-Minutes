@@ -1,0 +1,25 @@
+
+
+.results-page {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  background-color: #fefefe;
+  min-height: 100vh;
+}
+
+.chart-section {
+  width: 80%;
+  height: 400px;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
