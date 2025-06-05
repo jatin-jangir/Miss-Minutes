@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import StartPage from "./pages/StartPage";
 import MainPage from "./pages/MainPage";
 import ResultsPage from "./pages/ResultsPage";
+// import ResultsPage from "./pages/LoadingScreen";
 
 
 
